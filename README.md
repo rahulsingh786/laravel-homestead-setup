@@ -6,6 +6,8 @@ composer create-project --prefer-dist laravel/laravel blog
 
 composer require laravel/homestead --dev
 
+vendor/bin/homestead make
+
 ssh-keygen -t rsa -C "youremail"
 
 vagrant up
